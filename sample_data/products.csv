@@ -1,0 +1,5 @@
+product_id,product_name,category,cost,supplier
+P1,Organic Milk,Dairy,1.20,SupplierA
+P2,Whole Wheat Bread,Bakery,0.80,SupplierB
+P3,Dark Chocolate,Confectionery,0.50,SupplierC
+P4,Apple,Produce,0.10,SupplierD
