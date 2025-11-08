@@ -1,0 +1,4 @@
+# minimal placeholder configuration to show GE is planned
+data_docs_sites: {}
+plugins_directory: ""
+config_version: 3
