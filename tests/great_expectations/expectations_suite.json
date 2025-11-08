@@ -1,0 +1,17 @@
+{
+  "expectation_suite_name": "silver_transactions_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {"column": "transaction_id"}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {"column": "price", "min_value": 0}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {"column": "quantity", "min_value": 1}
+    }
+  ]
+}
