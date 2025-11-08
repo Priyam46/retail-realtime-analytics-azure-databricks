@@ -1,0 +1,4 @@
+store_id,store_name,region,opened_date,capacity
+S1,Downtown,North,2018-01-05,200
+S2,Suburb,South,2019-07-12,150
+S3,Mall,East,2020-09-20,300
