@@ -1,14 +1,20 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
 
-pkg/
-src/
+# Jupyter
+.ipynb_checkpoints
+
+# Databricks / local
+.checkpoints/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Local delta/data
+data/
+delta/
