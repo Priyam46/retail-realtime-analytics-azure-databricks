@@ -1,0 +1,4 @@
+transaction_id,store_id,product_id,ts,quantity,price,payment_type,loyalty_id
+h1,S1,P1,2025-11-01T09:15:00Z,2,2.40,card,loy1
+h2,S2,P4,2025-11-01T09:20:00Z,5,0.50,cash,
+h3,S3,P3,2025-11-01T10:05:00Z,1,0.50,card,loy2
