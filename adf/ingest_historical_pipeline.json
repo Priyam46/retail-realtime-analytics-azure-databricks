@@ -1,0 +1,15 @@
+{
+  "name": "ingest_historical",
+  "properties": {
+    "activities": [
+      {
+        "name": "CopyProductsToADLS",
+        "type": "Copy",
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": { "type": "AzureBlobFS" }
+        }
+      }
+    ]
+  }
+}
